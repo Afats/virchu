@@ -1,0 +1,264 @@
+{
+    "diseases": [
+        {
+            "url": "https://www.abc4.com/gmu/salmonella-outbreak-now-killing-more-birds-in-utah/",
+            "Date of Publication": "2021-03-17",
+            "Headline": "Salmonella outbreak now killing more birds in Utah",
+            "main text": "",
+            "reports": [
+              {
+                "event_date": "2021-03-17 16:37:00",
+                "locations": [
+                  {
+                    "Country": "United States",
+                    "City": "Utah"
+                  }
+                ],
+                "diseases": [
+                  "Salmonella"
+                ]
+              }
+            ]
+          },
+          {
+            "url": "http://outbreaknewstoday.com/salmonella-outbreak-grows-in-sweden-46396/",
+            "Date of Publication": "2021-03-14",
+            "Headline": "Salmonella outbreak grows in Sweden",
+            "main text": "In a follow-up on the Salmonella Enteritidis in Sweden, The Swedish Public Health Agency have now reported 25 confirmed cases across 14 regions in the southern and central parts of the country since December 2020.\nSalmonella is an organism which can cause serious and sometimes fatal infections in young children, frail or elderly people, and others with weakened immune systems.",
+            "reports": [
+              {
+                "event_date": "2021-03-14 17:43:00",
+                "locations": [
+                  {
+                    "Country": "Sweden",
+                    "City": "Stockholm"
+                  }
+                ],
+                "diseases": [
+                  "Salmonella"
+                ]
+              }
+            ]
+          },
+          {
+            "url": "http://outbreaknewstoday.com/norway-reports-salmonella-outbreak-10-people-hospitalized-23662/",
+            "Date of Publication": "2021-03-08",
+            "Headline": "Norway reports salmonella outbreak, 10 people hospitalized",
+            "main text": "The same genetic profile have been detected in all 12 confirmed cases.\nPreliminary analyzes of samples from the 8 suspected cases indicate that these also carry the outbreak strain.\nTherefore, we believe that they are infected through a food that is widely distributed”, says doctor Hilde Marie Lund at the department of infection control and emergency preparedness.\n“Investigation work can be complicated and time consuming, and in many cases it will not be possible to find the source of the infection or to clarify whether it is a common source.\n“The high proportion of patients admitted in this outbreak may be related to the relatively high age of the cases (median 59 years), but this is being investigated further”.",
+            "reports": [
+              {
+                "event_date": "2021-03-08 13:22:00",
+                "locations": [
+                  {
+                    "Country": "Norway",
+                    "City": "Rogaland"
+                  }
+                ],
+                "diseases": [
+                  "Salmonella"
+                ]
+              }
+            ]
+          },
+          {
+            "url": "http://outbreaknewstoday.com/norway-reports-salmonella-outbreak-10-people-hospitalized-23662/",
+            "Date of Publication": "2021-03-08",
+            "Headline": "Norway reports salmonella outbreak, 10 people hospitalized",
+            "main text": "The same genetic profile have been detected in all 12 confirmed cases.\nPreliminary analyzes of samples from the 8 suspected cases indicate that these also carry the outbreak strain.\n“Investigation work can be complicated and time consuming, and in many cases it will not be possible to find the source of the infection or to clarify whether it is a common source.\nWe follow the situation closely”, says doctor Hilde Marie Lund.\n“The high proportion of patients admitted in this outbreak may be related to the relatively high age of the cases (median 59 years), but this is being investigated further”.",
+            "reports": [
+              {
+                "event_date": "2021-03-08 13:24:00",
+                "locations": [
+                  {
+                    "Country": "Norway",
+                    "City": "Viken"
+                  }
+                ],
+                "diseases": [
+                  "Salmonella"
+                ]
+              }
+            ]
+          },
+          {
+            "url": "http://outbreaknewstoday.com/norway-reports-salmonella-outbreak-10-people-hospitalized-23662/",
+            "Date of Publication": "2021-03-08",
+            "Headline": "Norway reports salmonella outbreak, 10 people hospitalized",
+            "main text": "The same genetic profile have been detected in all 12 confirmed cases.\nPreliminary analyzes of samples from the 8 suspected cases indicate that these also carry the outbreak strain.\n“Investigation work can be complicated and time consuming, and in many cases it will not be possible to find the source of the infection or to clarify whether it is a common source.\nWe follow the situation closely”, says doctor Hilde Marie Lund.\n“The high proportion of patients admitted in this outbreak may be related to the relatively high age of the cases (median 59 years), but this is being investigated further”.",
+            "reports": [
+              {
+                "event_date": "2021-03-08 13:21:00",
+                "locations": [
+                  {
+                    "Country": "Norway",
+                    "City": "MÃ¸re og Romsdal"
+                  }
+                ],
+                "diseases": [
+                  "Salmonella"
+                ]
+              }
+            ]
+          },
+          {
+            "url": "http://outbreaknewstoday.com/norway-reports-salmonella-outbreak-10-people-hospitalized-23662/",
+            "Date of Publication": "2021-03-08",
+            "Headline": "Norway reports salmonella outbreak, 10 people hospitalized",
+            "main text": "The same genetic profile have been detected in all 12 confirmed cases.\nPreliminary analyzes of samples from the 8 suspected cases indicate that these also carry the outbreak strain.\n“Investigation work can be complicated and time consuming, and in many cases it will not be possible to find the source of the infection or to clarify whether it is a common source.\nWe follow the situation closely”, says doctor Hilde Marie Lund.\n“The high proportion of patients admitted in this outbreak may be related to the relatively high age of the cases (median 59 years), but this is being investigated further”.",
+            "reports": [
+              {
+                "event_date": "2021-03-08 13:22:00",
+                "locations": [
+                  {
+                    "Country": "Norway",
+                    "City": "Agder"
+                  }
+                ],
+                "diseases": [
+                  "Salmonella"
+                ]
+              }
+            ]
+          },
+          {
+            "url": "http://outbreaknewstoday.com/norway-reports-salmonella-outbreak-10-people-hospitalized-23662/",
+            "Date of Publication": "2021-03-08",
+            "Headline": "Norway reports salmonella outbreak, 10 people hospitalized",
+            "main text": "The same genetic profile have been detected in all 12 confirmed cases.\nPreliminary analyzes of samples from the 8 suspected cases indicate that these also carry the outbreak strain.\n“Investigation work can be complicated and time consuming, and in many cases it will not be possible to find the source of the infection or to clarify whether it is a common source.\nWe follow the situation closely”, says doctor Hilde Marie Lund.\n“The high proportion of patients admitted in this outbreak may be related to the relatively high age of the cases (median 59 years), but this is being investigated further”.",
+            "reports": [
+              {
+                "event_date": "2021-03-08 13:23:00",
+                "locations": [
+                  {
+                    "Country": "Norway",
+                    "City": "Vestfold og Telemark"
+                  }
+                ],
+                "diseases": [
+                  "Salmonella"
+                ]
+              }
+            ]
+          },
+          {
+            "url": "http://outbreaknewstoday.com/norway-reports-salmonella-outbreak-10-people-hospitalized-23662/",
+            "Date of Publication": "2021-03-08",
+            "Headline": "Norway reports salmonella outbreak, 10 people hospitalized",
+            "main text": "The same genetic profile have been detected in all 12 confirmed cases.\nPreliminary analyzes of samples from the 8 suspected cases indicate that these also carry the outbreak strain.\n“Investigation work can be complicated and time consuming, and in many cases it will not be possible to find the source of the infection or to clarify whether it is a common source.\nWe follow the situation closely”, says doctor Hilde Marie Lund.\n“The high proportion of patients admitted in this outbreak may be related to the relatively high age of the cases (median 59 years), but this is being investigated further”.",
+            "reports": [
+              {
+                "event_date": "2021-03-08 13:21:00",
+                "locations": [
+                  {
+                    "Country": "Norway",
+                    "City": "Vestland"
+                  }
+                ],
+                "diseases": [
+                  "Salmonella"
+                ]
+              }
+            ]
+          },
+          {
+            "url": "http://outbreaknewstoday.com/norway-reports-salmonella-outbreak-10-people-hospitalized-23662/",
+            "Date of Publication": "2021-03-08",
+            "Headline": "Norway reports salmonella outbreak, 10 people hospitalized",
+            "main text": "The same genetic profile have been detected in all 12 confirmed cases.\nPreliminary analyzes of samples from the 8 suspected cases indicate that these also carry the outbreak strain.\nTherefore, we believe that they are infected through a food that is widely distributed”, says doctor Hilde Marie Lund at the department of infection control and emergency preparedness.\n“Investigation work can be complicated and time consuming, and in many cases it will not be possible to find the source of the infection or to clarify whether it is a common source.\n“The high proportion of patients admitted in this outbreak may be related to the relatively high age of the cases (median 59 years), but this is being investigated further”.",
+            "reports": [
+              {
+                "event_date": "2021-03-08 13:20:00",
+                "locations": [
+                  {
+                    "Country": "Norway",
+                    "City": "Nordland"
+                  }
+                ],
+                "diseases": [
+                  "Salmonella"
+                ]
+              }
+            ]
+          },
+          {
+            "url": "http://outbreaknewstoday.com/norway-reports-salmonella-outbreak-10-people-hospitalized-23662/",
+            "Date of Publication": "2021-03-08",
+            "Headline": "Norway reports salmonella outbreak, 10 people hospitalized",
+            "main text": "The same genetic profile have been detected in all 12 confirmed cases.\nPreliminary analyzes of samples from the 8 suspected cases indicate that these also carry the outbreak strain.\nTherefore, we believe that they are infected through a food that is widely distributed”, says doctor Hilde Marie Lund at the department of infection control and emergency preparedness.\n“Investigation work can be complicated and time consuming, and in many cases it will not be possible to find the source of the infection or to clarify whether it is a common source.\n“The high proportion of patients admitted in this outbreak may be related to the relatively high age of the cases (median 59 years), but this is being investigated further”.",
+            "reports": [
+              {
+                "event_date": "2021-03-08 13:24:00",
+                "locations": [
+                  {
+                    "Country": "Norway",
+                    "City": "Innlandet"
+                  }
+                ],
+                "diseases": [
+                  "Salmonella"
+                ]
+              }
+            ]
+          },
+          {
+            "url": "http://outbreaknewstoday.com/norway-salmonella-outbreak-strain-detected-in-imported-beef-from-germany-91447/",
+            "Date of Publication": "2021-03-12",
+            "Headline": "Norway salmonella outbreak strain detected in imported beef from Germany",
+            "main text": "In a follow-up on the salmonella outbreak reported across Norway, the Norwegian Institute of Public Health has, in collaboration with the Norwegian Veterinary Institute, detected Salmonella Enteritidis with the outbreak profile in a batch of beef imported from Germany.\nThe imported batch of beef is used for, among other things, chop dough.\nThis agrees well with the information we have from the cases that have so far been interviewed, where several state that they have tasted raw chop dough, says doctor Hilde Marie Lund.\nOf the total of 22 cases, 19 have so far been detected in the Salmonella Enteritidis outbreak strain.\nFor 3 of the cases, we are awaiting a final confirmation, but preliminary analyzes indicate that these belong to the outbreak.",
+            "reports": [
+              {
+                "event_date": "2021-03-11 17:16:00",
+                "locations": [
+                  {
+                    "Country": "Norway",
+                    "City": "Oslo"
+                  }
+                ],
+                "diseases": [
+                  "Salmonella"
+                ]
+              }
+            ]
+          },
+          {
+            "url": "https://www.dailymail.co.uk/sciencetech/article-9352771/More-2-000-songbirds-died-Salmonellosis-outbreak-California.html",
+            "Date of Publication": "2021-03-11",
+            "Headline": "More than 2,000 songbirds have died from a Salmonellosis outbreak in California",
+            "main text": "The agency determined the birds are contracting Salmonellosis, a disease cause by Salmonella bacteria, by sharing bird feeders with other infected avian species.\nPine siskins, a species of finch that winters in California, are the primary species affected by the outbreak, along with a small number of goldfinches.\n‘When there is a disease circulating in the population, bird feeders ensure the birds remain in really close contact with one another, as well as other birds, as they use the feeder (think of having to share one dinner plate or one water glass with your whole family as well as with everyone in your neighborhood without washing it between each individual),’ Krysta Rogers, Senior Environmental Scientist with CDFW told DailyMail.com in an email.\n‘Bird feeders also keep the birds in one location for longer periods of time allowing feces to build up.’ ‘If there are sick birds in that group, they will shed the Salmonella bacteria in their feces, contaminating the area leading to more and more birds becoming sick and dying from the infection as they try to access the feeder or feed on the spilled seeds under the feeder.’ ‘The most effective way to slow the spread of this infection and reduce mortality is to remove the bird feeders because that is primarily where this disease spreads.’ The are contracting Salmonellosis, a disease cause by Salmonella bacteria, by sharing bird feeders with other infected avian species.\nPine siskins (pictured) are the primary species affected by the outbreak Salmonellosis is an infection with a Salmonella bacteria that lives in the intestinal tracts of animals, including birds.\nAnd it can be transmitted to humans who eat food contaminated with animal feces.\nThe disease is found to spread to birds during the winter months and has occurred in California previous years.",
+            "reports": [
+              {
+                "event_date": "2021-03-11 17:14:00",
+                "locations": [
+                  {
+                    "Country": "United States",
+                    "City": "California"
+                  }
+                ],
+                "diseases": [
+                  "Salmonella"
+                ]
+              }
+            ]
+          },
+          {
+            "url": "http://outbreaknewstoday.com/norway-reports-salmonella-outbreak-10-people-hospitalized-23662/",
+            "Date of Publication": "2021-03-08",
+            "Headline": "Norway reports salmonella outbreak, 10 people hospitalized",
+            "main text": "The same genetic profile have been detected in all 12 confirmed cases.\nPreliminary analyzes of samples from the 8 suspected cases indicate that these also carry the outbreak strain.\nTherefore, we believe that they are infected through a food that is widely distributed”, says doctor Hilde Marie Lund at the department of infection control and emergency preparedness.\n“Investigation work can be complicated and time consuming, and in many cases it will not be possible to find the source of the infection or to clarify whether it is a common source.\n“The high proportion of patients admitted in this outbreak may be related to the relatively high age of the cases (median 59 years), but this is being investigated further”.",
+            "reports": [
+              {
+                "event_date": "2021-03-08 13:05:00",
+                "locations": [
+                  {
+                    "Country": "Norway",
+                    "City": "Oslo"
+                  }
+                ],
+                "diseases": [
+                  "Salmonella"
+                ]
+              }
+            ]
+          }
+    ]
+}

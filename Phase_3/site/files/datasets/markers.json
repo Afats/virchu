@@ -1,0 +1,80 @@
+[
+    {
+      "name": "Salmonella",
+      "country": "United  States",
+      "lat": 47.8,
+      "lon": -120.7,
+      "elevation": 2000
+    },
+    {
+        "name": "Abu",
+        "country": "Japan",
+        "type": "Shield",
+        "lat": 34.5,
+        "lon": 131.6,
+        "elevation": 1500
+    },
+    {
+      "name": "Salmonella",
+      "country": "United States",
+      "lat": 35.5,
+      "lon": -86.6,
+      "elevation": 2000
+    },
+    {
+      "name": "Salmonella",
+      "country": "United States",
+      "lat": 43.8,
+      "lon": -120.6,
+      "elevation": 2000
+    },
+    {
+      "name": "Salmonella",
+      "country": "United States",
+      "lat": 35.5,
+      "lon": -97.5,
+      "elevation": 2000
+    },
+    {
+      "name": "Salmonella",
+      "country": "United States",
+      "lat": 43.2,
+      "lon": -71.8,
+      "elevation": 2000
+    },
+    {
+      "name": "Salmonella",
+      "country": "United States",
+      "lat": 37.8,
+      "lon": -84.3,
+      "elevation": 2000
+    },
+    {
+      "name": "Salmonella",
+      "country": "United States",
+      "lat": 36.8,
+      "lon": -119.4,
+      "elevation": 2000
+    },
+    {
+      "name": "Salmonella",
+      "country": "United States",
+      "lat": 32.4,
+      "lon": -89.4,
+      "elevation": 2000
+    },
+    {
+      "name": "Salmonella",
+      "country": "Australia",
+      "lat": -23.4,
+      "lon": 150.5,
+      "elevation": 2000
+    },
+    {
+      "name": "Salmonella",
+      "country": "Turkey",
+      "lat": 39.9,
+      "lon": 32.9,
+      "elevation": 2000
+    }
+]

@@ -1,0 +1,36 @@
+{ "charities": [
+    {
+		"country": "South Africa",
+		"charityName": "Mount Devault Charity",
+		"mission": "To strive to help people live healthier",
+		"categoryName": "Health and Medicine",
+		"causeName": "Disease management and preventation",
+		"orgID": 1,
+		"score": 94,
+		"rating": 5,
+		"websiteURL": "http://www.mdibl.org/"
+	},
+	{
+		"country": "Oman",
+		"charityName": "Sultan Qaboos Relief Centre",
+		"mission": "To help those suffering from the COVID-19 pandemic",
+		"categoryName": "Health and Medicine",
+		"causeName": "Vaccinations and disease containment",
+		"orgID": 2,
+		"score": 86,
+		"rating": 4,
+		"websiteURL": "http://www.mdibl.org/"
+	},
+	{
+		"country": "Spain",
+		"charityName": "Real Charity",
+		"mission": "Mes Que Un Charity",
+		"categoryName": "Health and Medicine",
+		"causeName": "Health supplies",
+		"orgID": 3,
+		"score": 72,
+		"rating": 3.5,
+		"websiteURL": "http://www.mdibl.org/"
+	}
+]
+}

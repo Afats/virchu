@@ -1,0 +1,13 @@
+.neo-card{
+    border-radius: 8px;
+    background: linear-gradient(145deg, #d5aaab, #fecacb);
+    box-shadow:  11px 11px 38px #cea4a5,
+                 -11px -11px 38px #ffd6d7;
+}
+
+.carousel {
+    width:900px;
+    height:500px;
+    margin: auto;
+  }
+  

@@ -1,0 +1,261 @@
+[
+    {
+      "name": "Salmonella",
+      "country": "United  States",
+      "lat": 47.8,
+      "lon": -120.7,
+      "elevation": 2000
+    },
+    {
+      "name": "Salmonella",
+      "country": "United States",
+      "lat": 35.5,
+      "lon": -86.6,
+      "elevation": 2000
+    },
+    {
+      "name": "Salmonella",
+      "country": "United States",
+      "lat": 43.8,
+      "lon": -120.6,
+      "elevation": 2000
+    },
+    {
+      "name": "Salmonella",
+      "country": "United States",
+      "lat": 35.5,
+      "lon": -97.5,
+      "elevation": 2000
+    },
+    {
+      "name": "Salmonella",
+      "country": "United States",
+      "lat": 43.2,
+      "lon": -71.8,
+      "elevation": 2000
+    },
+    {
+      "name": "Salmonella",
+      "country": "United States",
+      "lat": 37.8,
+      "lon": -84.3,
+      "elevation": 2000
+    },
+    {
+      "name": "Salmonella",
+      "country": "United States",
+      "lat": 36.8,
+      "lon": -119.4,
+      "elevation": 2000
+    },
+    {
+      "name": "Salmonella",
+      "country": "United States",
+      "lat": 32.4,
+      "lon": -89.4,
+      "elevation": 2000
+    },
+    {
+      "name": "Salmonella",
+      "country": "Australia",
+      "lat": -23.4,
+      "lon": 150.5,
+      "elevation": 2000
+    },
+    {
+      "name": "Salmonella",
+      "country": "Turkey",
+      "lat": 39.9,
+      "lon": 32.9,
+      "elevation": 2000
+    },
+    {
+      "name": "Cholera",
+      "country": "Nigeria",
+      "lat": 9.1,
+      "lon": 7.4,
+      "elevation": 2000
+    },
+    {
+      "name": "Cholera",
+      "country": "Nigeria",
+      "lat": 12.1,
+      "lon": 6.2,
+      "elevation": 2000
+    },
+    {
+      "name": "Cholera",
+      "country": "Nigeria",
+      "lat": 7.3,
+      "lon": 8.7,
+      "elevation": 2000
+    },
+    {
+      "name": "Cholera",
+      "country": "Nigeria",
+      "lat": 5.7,
+      "lon": 5.9,
+      "elevation": 2000
+    },
+    {
+      "name": "Cholera",
+      "country": "Nigeria",
+      "lat": 10.3,
+      "lon": 11.2,
+      "elevation": 2000
+    },
+    {
+      "name": "Cholera",
+      "country": "Cameroon",
+      "lat": 4.1,
+      "lon": 9.8,
+      "elevation": 2000
+    },
+    {
+      "name": "Cholera",
+      "country": "Cameroon",
+      "lat": 3.9,
+      "lon": 9.6,
+      "elevation": 2000
+    },
+    {
+      "name": "Cholera",
+      "country": "Cameroon",
+      "lat": 3.9,
+      "lon": 10.8,
+      "elevation": 2000
+    },
+    {
+      "name": "Foot-And-Mouth Disease",
+      "country": "Pakistan",
+      "lat": 34.9,
+      "lon": 72.3,
+      "elevation": 2000
+    },
+    {
+      "name": "Swine Flu",
+      "country": "United States",
+      "lat": 43.1,
+      "lon": -89.4,
+      "elevation": 2000
+    },
+    {
+      "name": "Polio",
+      "country": "Afghanistan",
+      "lat": 34.6,
+      "lon": 69.2,
+      "elevation": 2000
+    },
+    {
+      "name": "Polio",
+      "country": "Senegal",
+      "lat": 14.7,
+      "lon": -17.5,
+      "elevation": 2000
+    },
+    {
+      "name": "Avian Flu",
+      "country": "Taiwan",
+      "lat": 25.0,
+      "lon": 121.6,
+      "elevation": 2000
+    },
+    {
+      "name": "Avian Flu",
+      "country": "Nepal",
+      "lat": 27.7,
+      "lon": 85.3,
+      "elevation": 2000
+    },
+    {
+      "name": "Avian Flu",
+      "country": "Japan",
+      "lat": 35.7,
+      "lon": 139.6,
+      "elevation": 2000
+    },
+    {
+      "name": "Avian Flu",
+      "country": "Kuwait",
+      "lat": 29.3,
+      "lon": 47.5,
+      "elevation": 2000
+    },
+    {
+      "name": "Avian Flu",
+      "country": "Iran",
+      "lat": 35.7,
+      "lon": 51.4,
+      "elevation": 2000
+    },
+    {
+      "name": "Avian Flu",
+      "country": "China",
+      "lat": 41.8,
+      "lon": 123.4,
+      "elevation": 2000
+    },
+    {
+      "name": "Avian Flu",
+      "country": "Estonia",
+      "lat": 59.3,
+      "lon": 25.2,
+      "elevation": 2000
+    },
+    {
+      "name": "Avian Flu",
+      "country": "United Kingdom",
+      "lat": 53.2,
+      "lon": -2.7,
+      "elevation": 2000
+    },
+    {
+      "name": "Q-Fever",
+      "country": "Spain",
+      "lat": 43.3,
+      "lon": -2.9,
+      "elevation": 2000
+    },
+    {
+      "name": "Coronavirus",
+      "country": "Turkey",
+      "lat": 39.9,
+      "lon": 32.9,
+      "elevation": 2000
+    },
+    {
+      "name": "Coronavirus",
+      "country": "India",
+      "lat": 28.6,
+      "lon": 77.2,
+      "elevation": 2000
+    },
+    {
+      "name": "Coronavirus",
+      "country": "Brazil",
+      "lat": -15.8,
+      "lon": -47.9,
+      "elevation": 2000
+    },
+    {
+      "name": "Coronavirus",
+      "country": "Russia",
+      "lat": 55.8,
+      "lon": 37.6,
+      "elevation": 2000
+    },
+    {
+      "name": "Coronavirus",
+      "country": "China",
+      "lat": 24.0,
+      "lon": 97.9,
+      "elevation": 2000
+    },
+    {
+      "name": "Chikungunya",
+      "country": "Brazil",
+      "lat": -25.3,
+      "lon": -52.0,
+      "elevation": 2000
+    }
+]

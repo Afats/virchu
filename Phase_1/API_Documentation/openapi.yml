@@ -1,0 +1,253 @@
+openapi: 3.0.2
+servers:
+  - url: 'https://crackedpepper.herokuapp.com'
+info:
+  description: |-
+    Cracked Pepper's API for diseases provides a powerful single endpoint that allows for querying by:
+
+    - Location
+    - Disease
+    - Time
+
+    Users can also sort results on multiple fields, and project responses(select JSON elements).
+
+    Some useful links:
+    - [Website Scraped](http://outbreaks.globalincidentmap.com/)
+    - [GitHub Repo](https://github.com/Mohammad-Kheir/SENG3011_Cracked-Pepper)
+  version: 1.0.6-SNAPSHOT
+  title: Cracked Pepper Disease API - OpenAPI 3.0
+  contact: {}
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+  termsOfService: 'http://swagger.io/terms/'
+paths:
+  /auth/register:
+    parameters: []
+    post:
+      summary: Register
+      operationId: post-auth-register
+      description: |
+        Used to register and recieve access token.
+
+        Access token is to be passed with /disease requests in the header, otherwise the API will deny user access.
+
+        Access token expires after 24 hours after registering.
+
+        A new access token will be provided upon login, which also lasts 24 hours.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string
+              required:
+                - name
+                - email
+                - password
+            examples: {}
+        description: 'Pass a name, email and password'
+      parameters:
+        - schema:
+            type: string
+            default: application/json
+          in: header
+          name: Content-Type
+          required: true
+      tags:
+        - auth
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: string
+              examples:
+                Access token:
+                  value: eyJhbGciOiJIUzI1NiIsIR5cCI6IkpXVCJ9.eyJpZCI6IjYwNTM5N2UxYjNlMzU0NDQ0YTIxYTY3YiIsImlhdCI6MTYxNjA5MTEwNSwiZXhwIjoxNjE2MTc3NTA1fQ.ghpmA0wgMsC9J4QcbzsAO_7FY5d4rWVl8AIjAR1cLXk
+  /auth/login:
+    post:
+      summary: Login
+      operationId: post-auth-login
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: string
+              examples:
+                Access token:
+                  value: eyJhbGciOiJIUzI1NiIsIR5cCI6IkpXVCJ9.eyJpZCI6IjYwNTM5N2UxYjNlMzU0NDQ0YTIxYTY3YiIsImlhdCI6MTYxNjA5MTEwNSwiZXhwIjoxNjE2MTc3NTA1fQ.ghpmA0wgMsC9J4QcbzsAO_7FY5d4rWVl8AIjAR1cLXk
+      description: Login with email and password to recieve a new access token when current one expires
+      tags:
+        - auth
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+      parameters:
+        - schema:
+            type: string
+            default: application/json
+          in: header
+          name: Content-Type
+          required: true
+  /disease:
+    get:
+      summary: Query diseases
+      tags:
+        - disease
+      responses:
+        '200':
+          description: OK
+          headers: {}
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+              examples:
+                example-1:
+                  value:
+                    status: success
+                    log: 'Served by Team Cracked Pepper, Requested at 1616098464619, Data Source: outbreaks.globalincidentmap.com'
+                    data:
+                      - _id: 6053b1972bb9ed00151137ae
+                        url: 'https://www.who.int/csr/don/17-january-2020-novel-coronavirus-japan-ex-china/en/'
+                        date_of_publication: '2020-01-17T11:12:12.000Z'
+                        headline: ANovel Coronavirus – Japan (ex-China)
+                        main_text: 'On 15 January 2020, the Ministry of Health, Labour and Welfare, Japan (MHLW) reported an imported case of laboratory-confirmed 2019-novel coronavirus (2019-nCoV) from Wuhan, Hubei Province, China. The case-patient is male, between the age of 30-39 years, living in Japan. The case-patient travelled to Wuhan, China in late December and developed fever on 3 January 2020 while staying in Wuhan. He did not visit the Huanan Seafood Wholesale Market or any other live animal markets in Wuhan. He has indicated that he was in close contact with a person with pneumonia. On 6 January, he traveled back to Japan and tested negative for influenza when he visited a local clinic on the same day.'
+                        reports:
+                          - diseases:
+                              - covid-19
+                            _id: 6053b1972bb9ed00151137af
+                            locations:
+                              - _id: 6053b1972bb9ed00151137b0
+                                country: China
+                                location: 'Wuhan, Hubei Province'
+                              - _id: 6053b1972bb9ed00151137b1
+                                country: Japan
+                                location: ''
+                        __v: 0
+      operationId: get-disease
+      description: |-
+        Query by any combination of (can also omit any fields)
+
+          - disease 
+
+          - location 
+            can be country or city
+            
+          - time 
+            both or neither startDate and endDate must be given
+
+        Furthermore:
+
+        Results can be ordered based on multiple fields, a single space should be used to separate different fields:
+
+          
+         - order = "date_of_publication headline", 
+           will sort data ascendingly first by dop and then by headline
+           
+         - order = "-date_of_publication",
+           adding a dash infront of a field will sort descendingly
+          
+          
+        Results can be projected, in other words return only certian fields, a single space should be used to separate different fields:
+            
+          - projection = "date_of_publication headline",
+            will only return these fields.
+            
+          - projection = "reports.diseases",
+            will return all diseases in reports. Passing disease alone 
+            will fail since it is hidden below another JSON object.
+
+        The data response is the intersection of all criteria.
+      parameters:
+        - $ref: '#/components/parameters/startDate'
+        - $ref: '#/components/parameters/x-access-token'
+        - $ref: '#/components/parameters/endDate'
+        - $ref: '#/components/parameters/diseases'
+        - $ref: '#/components/parameters/location'
+        - $ref: '#/components/parameters/order'
+        - $ref: '#/components/parameters/projection'
+        - schema:
+            type: string
+            default: application/json
+          in: header
+          name: Content-Type
+          required: true
+externalDocs:
+  description: Find out more about Swagger
+  url: 'http://swagger.io'
+components:
+  schemas: {}
+  securitySchemes: {}
+  responses: {}
+  parameters:
+    startDate:
+      name: startDate
+      in: query
+      required: false
+      schema:
+        type: string
+      description: The date from which the filter begins
+    endDate:
+      name: endDate
+      in: query
+      required: false
+      schema:
+        type: string
+      description: The date to which the filter ends
+    x-access-token:
+      name: x-access-token
+      in: header
+      required: true
+      schema:
+        type: string
+      description: A JWT to access endpoints
+    diseases:
+      name: disease
+      in: query
+      required: false
+      schema:
+        type: string
+      description: disease name to be queried
+    location:
+      name: location
+      in: query
+      required: false
+      schema:
+        type: string
+      description: 'location to be queried, can be country or city.'
+    order:
+      name: order
+      in: query
+      required: false
+      schema:
+        type: string
+      description: A string to sort response data
+    projection:
+      name: projection
+      in: query
+      required: false
+      schema:
+        type: string
+      description: A string to project response data
+tags:
+  - name: auth
+  - name: disease

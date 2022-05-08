@@ -1,0 +1,50 @@
+{
+    "name": "api_sourcecode",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./Phase_1/API_SourceCode/index.js",
+    "scripts": {
+        "start": "node ./Phase_1/API_SourceCode/index.js",
+        "test": "mocha ./Phase_1/TestScripts/mochaTests/test.js",
+        "test:awesome": "mocha ./Phase_1/TestScripts/mochaTests/test.js --reporter mochawesome || true",
+        "open:report": "open mochawesome-report/mochawesome.html"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "chai-http": "git+https://github.com/chaijs/chai-http.git",
+        "eslint": "^7.20.0",
+        "lint-staged": "^10.5.4",
+        "nodemon": "^2.0.7"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "bootstrap": "^4.6.0",
+        "chai": "^4.3.4",
+        "chai-http": "^4.3.0",
+        "cookie-parser": "^1.4.5",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "globe.gl": "^2.21.1",
+        "jsonwebtoken": "^8.5.1",
+        "mocha": "^8.3.2",
+        "mochawesome": "^6.2.2",
+        "mongodb": "^3.6.3",
+        "mongoose": "^5.11.15",
+        "morgan": "^1.10.0",
+        "prop-types": "^15.7.2",
+        "react-bootstrap": "^1.5.2",
+        "react-kapsule": "^2.2.1",
+        "react-twitter-embed": "^3.0.3",
+        "react-twitter-widgets": "^1.10.0",
+        "request": "^2.88.2",
+        "startbootstrap-grayscale": "^6.0.3",
+        "supertest": "^6.1.3",
+        "tv4": "^1.3.0"
+    },
+    "engines": {
+        "node": "14.x"
+    }
+}

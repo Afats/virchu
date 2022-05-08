@@ -1,0 +1,21 @@
+[
+    {
+        "url": "https://www.abc4.com/gmu/salmonella-outbreak-now-killing-more-birds-in-utah/",
+        "Date of Publication": "2021-03-17",
+        "Headline": "Salmonella outbreak now killing more birds in Utah",
+        "main text": "",
+        "reports": [
+            {
+                "locations": [
+                    {
+                        "Country": "United States",
+                        "City": "Utah"
+                    }
+                ],
+                "diseases": [
+                    "Salmonella"
+                ]
+            }
+        ]
+    }
+]

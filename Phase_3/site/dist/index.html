@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Virchu</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/logooo.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+        <!---------------------->
+
+        <style> body { margin: 0; } </style>
+
+        <script src="//unpkg.com/react/umd/react.production.min.js"></script>
+        <script src="//unpkg.com/react-dom/umd/react-dom.production.min.js"></script>
+        <script src="//unpkg.com/babel-standalone"></script>
+
+        <script src="//unpkg.com/d3"></script>
+
+        <script src="//unpkg.com/react-globe.gl"></script>
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Virchu</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">World Map</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Reports</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+    <ghost>
+        <header class="masthead">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">VIRCHU</h1>
+                    <h2 class="text-black-50 mx-auto mt-2 mb-5">There are millions affected by the pandemic and other outbreaks. Help people around the world lead healthier, happier lives.</h2>
+                    <a class="btn btn-primary js-scroll-trigger" href="#about">Donate Now</a>
+                </div>
+            </div>
+        </header>
+    </ghost>
+
+        <!--- Globe -->
+        <div id="globeViz"></div>
+
+        <script type="text/jsx">
+          const { useState, useEffect, useMemo } = React;
+
+          const World = () => {
+            const [countries, setCountries] = useState({ features: []});
+            const [hoverD, setHoverD] = useState();
+
+            useEffect(() => {
+              // load data
+              fetch('datasets/ne_110m_admin_0_countries.geojson').then(res => res.json()).then(setCountries);
+            }, []);
+
+            const colorScale = d3.scaleSequentialSqrt(d3.interpolateYlOrRd);
+
+            // GDP per capita (avoiding countries with small pop)
+            const getVal = feat => feat.properties.GDP_MD_EST / Math.max(1e5, feat.properties.POP_EST);
+
+            const maxVal = useMemo(
+              () => Math.max(...countries.features.map(getVal)),
+              [countries]
+            );
+            colorScale.domain([0, maxVal]);
+
+            return <Globe
+              globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
+              backgroundImageUrl="choropleth-countries/image.png"
+              lineHoverPrecision={0}
+
+              polygonsData={countries.features.filter(d => d.properties.ISO_A2 !== 'AQ')}
+              polygonAltitude={d => d === hoverD ? 0.12 : 0.06}
+              polygonCapColor={d => d === hoverD ? 'steelblue' : colorScale(getVal(d))}
+              polygonSideColor={() => 'rgba(0, 100, 0, 0.15)'}
+              polygonStrokeColor={() => '#111'}
+              polygonLabel={({ properties: d }) => `
+                <b>${d.ADMIN} (${d.ISO_A2}):</b> <br />
+                GDP: <i>${d.GDP_MD_EST}</i> M$<br/>
+                Population: <i>${d.POP_EST}</i>
+              `}
+              onPolygonHover={setHoverD}
+              polygonsTransitionDuration={300}
+            />;
+          };
+
+          ReactDOM.render(
+            <World />,
+            document.getElementById('globeViz')
+          );
+        </script>
+
+
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright &copy; Virchu 2021</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
