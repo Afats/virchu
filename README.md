@@ -1,4 +1,6 @@
-# SENG3011_Cracked-Pepper
+# Virchu
+
+A covid data aggregator and charity linker web app for the Optiver SENG3011 2021 competition, by team Cracked Pepper. Finished runner-up.
 
 ## API link
 
