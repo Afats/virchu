@@ -1,6 +1,9 @@
 # Virchu
 
 A covid data aggregator and charity linker web app for the Optiver SENG3011 2021 competition, by team Cracked Pepper. Finished runner-up.
+Featuring a minimal, calming UI, choropleth globe and intgeration with Twitter.
+
+![Alt text](/screenshots/ss1.jpg?raw=true "Landing Globe")
 
 ## API link
 
