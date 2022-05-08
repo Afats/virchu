@@ -1,9 +1,11 @@
 # Virchu
 
 A covid data aggregator and charity linker web app for the Optiver SENG3011 2021 competition, by team Cracked Pepper. Finished runner-up.
-Featuring a minimal, calming UI, choropleth globe and intgeration with Twitter.
+Featuring a minimal, calming UI, choropleth globe and intgeration with Twitter. Built a custom API using the MERN stack for data aggregation, with API documentation.
 
-![Choropleth globe on landing page](https://github.com/Afats/virchu/blob/main/screenshots/ss1.png)
+![Landing page](https://github.com/Afats/virchu/blob/main/screenshots/ss1.png)
+![Choropleth globe](https://github.com/Afats/virchu/blob/main/screenshots/ss2.png)
+![Covid news](https://github.com/Afats/virchu/blob/main/screenshots/ss3.png)
 
 ## API link
 
